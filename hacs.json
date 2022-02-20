@@ -1,5 +1,5 @@
 {
-    "name": "Neerslag App",
+    "name": "SM Neerslag App",
     "render_readme": true,
     "country": ["NL", "BE"],
     "domains": ["sensor"]

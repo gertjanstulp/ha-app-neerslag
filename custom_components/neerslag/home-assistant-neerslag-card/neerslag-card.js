@@ -124,7 +124,9 @@ class CombiCard extends LitElement {
 	}
 
 	getCurrentLanguage() {
-		let lang = (localStorage.getItem('selectedLanguage') || '') .replace(/['"]+/g, '').replace('-', '_');
+		let lang = this._config.language;
+		if (lang == '')
+			lang = (localStorage.getItem('selectedLanguage') || '') .replace(/['"]+/g, '').replace('-', '_');
 		if(lang == '') {
 			lang = (navigator.language || navigator.userLanguage).replace(/['"]+/g, '').replace('-', ' ').substring(0, 2);
 		}
