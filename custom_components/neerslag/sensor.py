@@ -154,7 +154,7 @@ class mijnBasis(Entity):
                 ("neerslag", "neerslag-device")
             },
             "name": "SM Neerslag App",
-            "manufacturer": "aex351",
+            "manufacturer": "@gertjanstulp",
             "model": "All-in-one package",
             "sw_version": "",
             "via_device": ("neerslag", "abcd"),
