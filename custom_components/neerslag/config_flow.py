@@ -73,7 +73,7 @@ class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
 
         try:
             # info = await validate_input(self.hass, user_input)
-            title = "Neerslag App"
+            title = "SM Neerslag App"
             data = user_input
             # _LOGGER.info("Dit wordt nu uitgevoerd...........")
             # _LOGGER.info(data)

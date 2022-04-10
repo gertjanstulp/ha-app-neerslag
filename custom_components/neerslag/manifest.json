@@ -1,6 +1,6 @@
 {
   "domain": "neerslag",
-  "name": "Neerslag App (Buienalarm / Buienradar)",
+  "name": "SM Neerslag App (Buienalarm / Buienradar)",
   "config_flow": true,
   "documentation": "https://github.com/gertjanstulp/ha-app-neerslag",
   "requirements": [],

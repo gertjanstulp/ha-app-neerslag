@@ -153,7 +153,7 @@ class mijnBasis(Entity):
                 # Serial numbers are unique identifiers within a specific domain
                 ("neerslag", "neerslag-device")
             },
-            "name": "Neerslag App",
+            "name": "SM Neerslag App",
             "manufacturer": "aex351",
             "model": "All-in-one package",
             "sw_version": "",

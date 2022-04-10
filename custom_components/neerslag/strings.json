@@ -1,9 +1,9 @@
 {
-  "title": "Neerslag App (Buienalarm / Buienradar)",
+  "title": "SM Neerslag App (Buienalarm / Buienradar)",
   "config": {
     "step": {
       "user": {
-        "title" : "Neerslag App set-up",
+        "title" : "SM Neerslag App set-up",
         "description" : "It can take a couple of minutes before the sensors to become active.",
         "data": {
           "host": "[%key:common::config_flow::data::host%]",
@@ -31,7 +31,7 @@
   "options":{
     "step": {
       "init": {
-        "title" : "Neerslag App options",
+        "title" : "SM Neerslag App options",
         "description" : "Changes (after clicking submit) take a couple of minutes to process.",
         "data": {
           "host": "[%key:common::config_flow::data::host%]",

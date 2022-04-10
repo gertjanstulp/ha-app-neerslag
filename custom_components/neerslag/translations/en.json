@@ -23,7 +23,7 @@
                     "username": "Username"
                 },
                 "description": "It can take a couple of minutes before the sensors to become active.",
-                "title": "Neerslag App set-up"
+                "title": "SM Neerslag App set-up"
             }
         }
     },
@@ -43,9 +43,9 @@
                     "username": "Username"
                 },
                 "description": "Changes (after clicking submit) take a couple of minutes to process.",
-                "title": "Neerslag App options"
+                "title": "SM Neerslag App options"
             }
         }
     },
-    "title": "Neerslag App (Buienalarm / Buienradar)"
+    "title": "SM Neerslag App (Buienalarm / Buienradar)"
 }
