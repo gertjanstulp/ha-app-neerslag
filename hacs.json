@@ -1,6 +1,10 @@
 {
-    "name": "SM Neerslag App",
+    "name": "Neerslag App",
+    "zip_release": true,
+    "hide_default_branch": true,
+    "homeassistant": "2022.2.0",
     "render_readme": true,
-    "country": ["NL", "BE"],
-    "domains": ["sensor"]
-}
+    "filename": "neerslag.zip",
+    "country": ["NL", "BE"]
+  }
+  
