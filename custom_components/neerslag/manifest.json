@@ -1,17 +1,14 @@
 {
   "domain": "neerslag",
-  "name": "SM Neerslag App (Buienalarm / Buienradar)",
+  "name": "Neerslag App (Buienalarm / Buienradar)",
   "config_flow": true,
   "documentation": "https://github.com/gertjanstulp/ha-app-neerslag",
   "requirements": [],
-  "ssdp": [],
-  "zeroconf": [],
-  "homekit": {},
   "dependencies": [],
-  "issue_tracker": "",
+  "issue_tracker": "https://github.com/gertjanstulp/ha-app-neerslag/issues",
   "codeowners": [
-    "@gertjanstulp"
+      "@gertjanstulp"
   ],
-  "iot_class" : "cloud_polling",
-  "version": "1.0.0"
+  "iot_class": "cloud_polling",
+  "version": "0.0.0"
 }
