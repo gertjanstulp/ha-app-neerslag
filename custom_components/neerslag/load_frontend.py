@@ -9,7 +9,7 @@ import time
 _LOGGER = logging.getLogger(__name__)
 
 
-def setup_view(hass: HomeAssistant):
+async def setup_view_async(hass: HomeAssistant):
     dir_path = os.path.dirname(os.path.realpath(__file__))
     path_to_file = "{}/home-assistant-neerslag-card/neerslag-card.js".format(dir_path)
     should_cache = False
@@ -17,5 +17,5 @@ def setup_view(hass: HomeAssistant):
     timestamp = str(time.time())
     frontend_script_url_with_parameter = FRONTEND_SCRIPT_URL+"?cache="+timestamp
 
-    hass.http.register_static_path(FRONTEND_SCRIPT_URL, str(path_to_file), should_cache)
+    await hass.http.async_register_static_paths([StaticPathConfig(FRONTEND_SCRIPT_URL, str(path_to_file), should_cache))
     add_extra_js_url(hass, frontend_script_url_with_parameter , es5=False)
