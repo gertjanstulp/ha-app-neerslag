@@ -6,7 +6,7 @@ on:
         - published
     push:
       branches:
-        - main
+        - main_custom
 
 jobs:
   release_zip_file:
